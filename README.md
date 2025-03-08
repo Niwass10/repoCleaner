@@ -28,6 +28,7 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
   $ pip install PyGithub python-dotenv
 
 ### 5️⃣ Run the Script
+
   Execute the script to scan for stale branches.
   
   $  python3 repoCleaner.py
@@ -36,6 +37,7 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
 
 6️⃣ Select Branches for Deletion -
 ********************************
+
   Choose to delete all stale branches or select specific ones.
   
   The script will remove only the selected branches.
@@ -44,12 +46,14 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
 
 7️⃣ Verify the Cleanup -
 ***********************
+
   Go to GitHub and check if the branches have been deleted.
   
   Ensure no necessary branches were removed.
 
 8️⃣ Test with a Sample Stale Branch (Optional) -
 ***********************************************
+
   To test, create a test branch with an old commit date and run the script to confirm that it detects and deletes the branch.
   
   Test with a Sample Stale Branch (Optional)
@@ -68,8 +72,10 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
   
   $  git push origin test-stale-branch
 
+
 9️⃣ Maintain Repository Cleanliness -
 *************************************
+
   Run the script periodically to keep repositories clean.
   
   Automate the process if necessary.
