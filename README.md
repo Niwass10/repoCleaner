@@ -28,7 +28,7 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
   $ pip install PyGithub python-dotenv
 
 ### 5️⃣ Run the Script
-  Execute the script to scan for stale branches:
+  Execute the script to scan for stale branches.
   $  python3 repoCleaner.py
   The script will list branches that haven’t been updated in over a year.
 
