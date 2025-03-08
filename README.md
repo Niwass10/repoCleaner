@@ -29,34 +29,47 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
 
 ### 5️⃣ Run the Script
   Execute the script to scan for stale branches.
+  
   $  python3 repoCleaner.py
+  
   The script will list branches that haven’t been updated in over a year.
 
 6️⃣ Select Branches for Deletion -
 ********************************
   Choose to delete all stale branches or select specific ones.
+  
   The script will remove only the selected branches.
+  
   Note: Ensure you only delete branches you no longer need.
 
 7️⃣ Verify the Cleanup -
 ***********************
   Go to GitHub and check if the branches have been deleted.
+  
   Ensure no necessary branches were removed.
 
 8️⃣ Test with a Sample Stale Branch (Optional) -
 ***********************************************
   To test, create a test branch with an old commit date and run the script to confirm that it detects and deletes the branch.
+  
   Test with a Sample Stale Branch (Optional)
+  
   Create a Stale Test Branch
   
   $  git checkout -b test-stale-branch
+  
   $  echo "Testing stale branch" > stale_branch.txt
+  
   $  git add stale_branch.txt
+  
   $  git commit -m "Adding test file for stale branch"
+  
   $  GIT_COMMITTER_DATE="2022-01-01T12:00:00" git commit --amend --no-edit --date "2022-01-01T12:00:00"
+  
   $  git push origin test-stale-branch
 
 9️⃣ Maintain Repository Cleanliness -
 *************************************
   Run the script periodically to keep repositories clean.
+  
   Automate the process if necessary.
