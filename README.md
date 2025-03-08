@@ -24,9 +24,8 @@ The **GitHub Stale Branch Cleaner** helps clean up repositories by detecting and
   - `masterRepoList.txt` → Contains a list of repositories to scan.
 
 ### **4️⃣ Install Dependencies**
-Run the following command to install required dependencies:
-```bash
-pip install PyGithub python-dotenv
+  Run the following command to install required dependencies:
+  $ pip install PyGithub python-dotenv
 
 ### 5️⃣ Run the Script
   Execute the script to scan for stale branches:
@@ -36,7 +35,7 @@ pip install PyGithub python-dotenv
 6️⃣ Select Branches for Deletion
   Choose to delete all stale branches or select specific ones.
   The script will remove only the selected branches.
-Note: Ensure you only delete branches you no longer need.
+  Note: Ensure you only delete branches you no longer need.
 
 7️⃣ Verify the Cleanup
   Go to GitHub and check if the branches have been deleted.
