@@ -28,20 +28,23 @@ Run the following command to install required dependencies:
 ```bash
 pip install PyGithub python-dotenv
 
-5️⃣ Run the Script
+### 5️⃣ Run the Script
 Execute the script to scan for stale branches:
 bash
 Copy
 Edit
 python3 repoCleaner.py
 The script will list branches that haven’t been updated in over a year.
+
 6️⃣ Select Branches for Deletion
 Choose to delete all stale branches or select specific ones.
 The script will remove only the selected branches.
 Note: Ensure you only delete branches you no longer need.
+
 7️⃣ Verify the Cleanup
 Go to GitHub and check if the branches have been deleted.
 Ensure no necessary branches were removed.
+
 8️⃣ Test with a Sample Stale Branch (Optional)
 To test, create a test branch with an old commit date and run the script to confirm that it detects and deletes the branch.
 
